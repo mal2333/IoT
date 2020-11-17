@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+html{
+  font-family: 'Roboto', sans-serif;
+}
+
+nav{
+  padding-left: 1em;
+  background-color: #FB8C6F;
+  /* FCC763 or C0B9AD or 72607D */
+}
+
+h2{
+ font-size: 3em;
+ font-family: 'Lobster', sans-serif;
+}
+
+.page-footer{
+  background-color: #C0B9AD;
+  padding: 2em;
+}
