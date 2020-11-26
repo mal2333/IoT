@@ -16,6 +16,24 @@ h2{
  font-family: 'Lobster', sans-serif;
 }
 
+h3{
+ font-size: 2em;
+ font-family: 'Lobster', sans-serif;
+}
+
+video{
+  width: 100%;
+}
+
+.checkbox-orange[type="checkbox"].filled-in:checked + span:not(.lever):after{
+  border: 2px solid #FB8C6F;
+  background-color: #FB8C6F;
+}
+
+.myorange{
+  color: #FB8C6F;
+}
+
 .page-footer{
   background-color: #C0B9AD;
   padding: 2em;
