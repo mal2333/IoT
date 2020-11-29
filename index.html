@@ -34,6 +34,7 @@
         <li class="right-align"><a href="#assemble">assemble</a></li>
       </ul>
     </div>
+
     <div class="col s12 m7 l8">
 
   <!-- INTRODUCTION - BUILD A SOCIAL WAVE -->
@@ -310,28 +311,24 @@
           <h3>hardware set up</h3>
           <div class="carousel carousel-slider center">
             <a class="carousel-item" href="#one!">
-              <p class="black-text">1. Assemble servo and microcontroller</p>
-              <img src="assets/Hardware1.png">
+              <p class="black-text">1. Connect servo to microcontroller</p>
+              <img src="assets/hardware.svg" height="90%">
             </a>
             <a class="carousel-item" href="#two!">
-              <p class="black-text">2. blablabla</p>
-              <img src="https://via.placeholder.com/50">
+              <p class="black-text">2. Connect LiPo battery to microcontroller</p>
+              <img src="assets/LiPo.svg" height="90%">
             </a>
             <a class="carousel-item" href="#three!">
-              <p class="black-text">3. blablabla</p>
-              <img src="https://via.placeholder.com/50">
-            </a>
-            <a class="carousel-item" href="#four!">
-              <p class="black-text">4. blablabla</p>
-              <img src="https://via.placeholder.com/50">
+              <p class="black-text">3. Connect microcontroller to computer to upload code</p>
+              <img src="assets/usb.svg" height="90%">
             </a>
           </div>
+          <br>
         </div>
 
         <!-- SOFTWARE -->
         <div class="software">
-          <h3>software step by step</h3>
-          <h5>microcontroller</h5>
+          <h3>software set up</h3>
           <div class="col s4">
             <div class="card medium">
               <div class="card-image">
@@ -339,7 +336,7 @@
               </div>
               <div class="card-content">
                 <span class="card-title black-text">CP2104 USB driver</span>
-                <p>Download this driver to your computer to upload the code to your microcontroller</p>
+                <p>Download this driver to your computer</p>
               </div>
               <div class="card-action">
                 <a href="https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers">download</a>
@@ -354,7 +351,7 @@
               </div>
               <div class="card-content">
                 <span class="card-title black-text">arduino IDE</span>
-                <p>Download the IDE to write and upload your code on your mictrocontroller</p>
+                <p>Download the IDE to write and upload code on your microcontroller</p>
               </div>
               <div class="card-action">
                 <a href="https://www.arduino.cc/en/Main/Software">download</a>
@@ -369,23 +366,38 @@
               </div>
               <div class="card-content">
                 <span class="card-title black-text">wave code</span>
-                <p>Download the files to upload to your microcontroller</p>
+                <p>Download the code to upload to your microcontroller</p>
               </div>
               <div class="card-action">
                 <a href="#">download</a>
               </div>
             </div>
           </div>
-          <h5>step by step</h5>
-          <div class="carousel carousel-slider">
-            <a class="carousel-item" href="#one!"><img src="https://via.placeholder.com/50"></a>
-            <a class="carousel-item" href="#two!"><img src="https://via.placeholder.com/50"></a>
-            <a class="carousel-item" href="#three!"><img src="https://via.placeholder.com/50"></a>
-            <a class="carousel-item" href="#four!"><img src="https://via.placeholder.com/50"></a>
+          <div class="row">
+            <div class="carousel carousel-slider center">
+              <a class="carousel-item" href="#one!">
+                <p class="black-text">1. Install the CP2104 USB driver to your computer</p>
+                <img src="assets/driver2.svg" height="90%">
+              </a>
+              <a class="carousel-item" href="#two!">
+                <p class="black-text">2. Install the Arduino IDE <br>Installl ESP8266 Board package</p>
+                <img src="assets/Board_package.svg" height="80%">
+              </a>
+              <a class="carousel-item" href="#three!">
+                <p class="black-text">3. In the Board Manager, install the ESP8266 package</p>
+                <img src="assets/esp8266.svg" height="80%">
+              </a>
+              <a class="carousel-item" href="#four!">
+                <p class="black-text">4. Restart and IDE, and the select Adafruit Feather HUZZAH ESP8266 <br>Look at the settings and make sure they match</p>
+                <img src="assets/Huzzah.svg" height="80%">
+              </a>
+              <a class="carousel-item" href="#four!">
+                <p class="black-text">5. Add your personal information.<br>Here, you are allowing your microcontroller to access the internet and your adafruit.io account.</p>
+                <img src="assets/code.svg" height="80%">
+              </a>
+            </div>
           </div>
-          <p>do this, then this, then this</p>
         </div>
-      </div>
       <div class="divider"></div>
 
   <!-- PAPER ARTIFACT -->
@@ -408,14 +420,13 @@
       <div class="divider"></div>
 
   <!-- ASSEMBLE IT ALL -->
-      <div id="assemble" class="section scrollspy">
-        <h2>all together</h2>
-          <video class="responsive-video z-depth-1" loop controls>
-            <source src="assets/animation.mp4" type="video/mp4">
-            Your browser does not support the video.
-          </video>
-        <p>SOCIAL AWARENESS</p>
-      </div>
+    <div id="assemble" class="section scrollspy">
+      <h2>all together</h2>
+        <video class="responsive-video z-depth-1" loop controls>
+          <source src="assets/animation.mp4" type="video/mp4">
+          Your browser does not support the video.
+        </video>
+      <p>SOCIAL AWARENESS</p>
     </div>
     <div class="col hide-on-small-only m2 l2"></div>
   </div>
