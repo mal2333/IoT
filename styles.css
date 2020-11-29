@@ -38,3 +38,7 @@ video{
   background-color: #C0B9AD;
   padding: 2em;
 }
+
+tr>th{
+  font-style: italic;
+}
