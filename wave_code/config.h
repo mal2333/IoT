@@ -1,7 +1,7 @@
 #include "data.h"
 #include "AdafruitIO_WiFi.h"
 
-#if defined(USE_AIRLIFT) || defined(ADAFRUIT_METRO_M4_AIRLIFT_LITE) ||         \
+#if defined(USE_AIRLIFT) || defined(ADAFRUIT_METRO_M4_AIRLIFT_LITE) ||
     defined(ADAFRUIT_PYPORTAL)
 // Configure the pins used for the ESP32 connection
 #if !defined(SPIWIFI_SS) // if the wifi definition isnt in the board variant

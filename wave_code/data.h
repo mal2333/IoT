@@ -2,9 +2,9 @@
 // ADD YOUR INFO HERE!!
 
 //LINK TO ADAFRUIT IO
-#define IO_USERNAME "mal2333"
-#define IO_KEY "aio_XIxA56lvnq7ClJppzKr5sgFXWsA1"
+#define IO_USERNAME "io_username"
+#define IO_KEY "io_key"
 
 //LINK TO WIFI NETWORK
-#define WIFI_SSID "MUL"
-#define WIFI_PASS "qqqq2222"
+#define WIFI_SSID "wifi_ID"
+#define WIFI_PASS "wifi_password"
