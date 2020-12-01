@@ -25,7 +25,6 @@
   <div class="row">
     <div class="col hide-on-small-only m3 l2">
       <ul class="section table-of-contents left-align" style="padding-top:250px; position:fixed;">
-        <li class="right-align"><a href="#introduction">introduction</a></li>
         <li class="right-align"><a href="#material">material</a></li>
         <li class="right-align"><a href="#platforms">platforms</a></li>
         <li class="right-align"><a href="#workflow">workflow</a></li>
@@ -39,12 +38,10 @@
 
   <!-- INTRODUCTION - BUILD A SOCIAL WAVE -->
       <div id="introduction" class="section scrollspy">
-        <h2>build your social wave</h2>
-        <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam illum amet labore assumenda, animi nam illo molestiae earum laboriosam quam, laudantium totam perferendis, praesentium incidunt cumque, voluptas! Aperiam, maxime, quos quam illo totam perferendis dolores neque qui, officia dicta placeat! Magni molestiae, quia quibusdam, quam voluptatem quae dolore tempore suscipit.</p>
-        <img class="z-depth-1" src="https://via.placeholder.com/900x500" alt="">
+        <p>This project is a fun and easy introduction to the Internet of Things which will help you visualize the exchange of data between devices. By making the ... more transparent... We are going to explore how automation... </p>
+        <img src="https://via.placeholder.com/900x500" class="center">
       </div>
       <div class="divider"></div>
-
 
   <!-- MATERIAL -->
       <div id="material" class="section scrollspy">
@@ -90,18 +87,19 @@
 
   <!-- WORKFLOW -->
       <div id="workflow" class="section scrollspy">
-        <h2>create your own workflow</h2>
+        <h2>create the digital workflow</h2>
 
         <!-- ZAPIER -->
         <div class="zapier">
-          <h3>zapier set up
+          <h3>zapier
             <span>
               <a href="https://zapier.com/" class="myorange">
                 <i class="material-icons">link</i>
               </a>
             </span>
           </h3>
-          <img src="assets/own_workflow.png" width="100%" alt="own_workflow">
+          <p>Zapier is a platform that allows us to automate tasks. For our purpose, it streamlines the interactions between platforms and showcases the data that we care about while hiding the querring, requests, authentication usually required when talking to an API.</p>
+          <img src="assets/own_workflow.png" class="center" alt="own_workflow">
           <ul class="collapsible expandable">
             <li class="active">
               <div class="collapsible-header deep-orange lighten-5"><i class="material-icons">exit_to_app</i>Trigger</div>
@@ -262,13 +260,14 @@
 
         <!-- ADAFRUIT.IO -->
         <div class="adafruit">
-          <h3>adafruit.io set up
+          <h3>adafruit.io
             <span>
               <a href="https://adafruit.io/" class="myorange">
                 <i class="material-icons">link</i>
               </a>
             </span>
           </h3>
+          <p>Adafruit.io is a platform that allows to display, respond and interact with our project's data over the internet without code. It allows us to upload data and easily access it thanks to libraries already built for us.</p>
           <div class="carousel carousel-slider center">
             <a class="carousel-item" href="#one!">
               <p class="black-text">1. Create an adafruit.io account<br>Go to Feeds</p>
@@ -292,9 +291,10 @@
 
         <!-- TWITTER - ZAPIER - AFARDUIT EXAMPLE -->
         <div class="example">
-          <h3>twitter - zapier - adarfuit.io example</h3>
+          <h3>example</h3>
+          <p>Here is a quick example of 3 different platforms, and how we authorize them to talk to each other.</p>
           <br>
-          <img src="assets/twitter_example.png" width="100%" alt="twitter_example">
+          <img src="assets/twitter_example.png" class="center" alt="twitter_example">
           <video class="responsive-video z-depth-1" loop controls>
             <source src="assets/accounts.mp4" type="video/mp4">
             Your browser does not support the video.
@@ -305,95 +305,89 @@
 
   <!-- MICROCONTROLLER -->
       <div id="microcontroller" class="section scrollspy">
-        <h2>create your own signal</h2>
+        <h2>create the physical signal</h2>
 
         <!-- HARDWARE -->
         <div class="hardware">
-          <h3>hardware set up</h3>
-          <div class="carousel carousel-slider center">
-            <a class="carousel-item" href="#one!">
-              <p class="black-text">1. Connect servo to microcontroller</p>
-              <img src="assets/hardware.svg" height="90%">
-            </a>
-            <a class="carousel-item" href="#two!">
-              <p class="black-text">2. Connect LiPo battery to microcontroller</p>
-              <img src="assets/LiPo.svg" height="90%">
-            </a>
-            <a class="carousel-item" href="#three!">
-              <p class="black-text">3. Connect microcontroller to computer to upload code</p>
-              <img src="assets/usb.svg" height="90%">
-            </a>
-          </div>
+          <h3>hardware</h3>
+          <p>Follow the diagram below and connect your servo, battery and USB cable to the microcontroller.<br>
+             Orange wire to Pin 14<br>
+             Red wire to 3V (power)<br>
+             Brown wire to GND (ground)<br>
+          </p>
+          <img src="assets/hardware1.svg" class="center">
           <br>
         </div>
 
         <!-- SOFTWARE -->
         <div class="software">
-          <h3>software set up</h3>
-          <div class="col s4">
-            <div class="card medium">
-              <div class="card-image">
-                <img src="assets/driver.png">
-              </div>
-              <div class="card-content">
-                <span class="card-title black-text">CP2104 USB driver</span>
-                <p>Download this driver to your computer</p>
-              </div>
-              <div class="card-action">
-                <a href="https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers">download</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s4">
-            <div class="card medium">
-              <div class="card-image">
-                <img src="assets/arduinoide.png">
-              </div>
-              <div class="card-content">
-                <span class="card-title black-text">arduino IDE</span>
-                <p>Download the IDE to write and upload code on your microcontroller</p>
-              </div>
-              <div class="card-action">
-                <a href="https://www.arduino.cc/en/Main/Software">download</a>
+          <div class="row">
+            <h3>software</h3>
+            <div class="col s4">
+              <div class="card medium">
+                <div class="card-image">
+                  <img src="assets/driver.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title black-text">CP2104 USB driver</span>
+                  <p>Download this driver to your computer</p>
+                </div>
+                <div class="card-action">
+                  <a href="https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers">download</a>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col s4">
-            <div class="card medium">
-              <div class="card-image">
-                <img src="assets/code.png">
+            <div class="col s4">
+              <div class="card medium">
+                <div class="card-image">
+                  <img src="assets/arduinoide.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title black-text">arduino IDE</span>
+                  <p>Download the IDE to write and upload code on your microcontroller</p>
+                </div>
+                <div class="card-action">
+                  <a href="https://www.arduino.cc/en/Main/Software">download</a>
+                </div>
               </div>
-              <div class="card-content">
-                <span class="card-title black-text">wave code</span>
-                <p>Download the code to upload to your microcontroller</p>
-              </div>
-              <div class="card-action">
-                <a href="wave_code" download>download</a>
+            </div>
+
+            <div class="col s4">
+              <div class="card medium">
+                <div class="card-image">
+                  <img src="assets/code.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title black-text">wave code</span>
+                  <p>Download the code to upload to your microcontroller</p>
+                </div>
+                <div class="card-action">
+                  <a href="wave_code" download>download</a>
+                </div>
               </div>
             </div>
           </div>
           <div class="row">
+            <p>To get started you will need install the USB driver and the arduino IDE.<br>
+               Plug your microcontroller into the USB port of your computer.<br>
+               Open the Arduino IDE and follow the steps below.</p>
             <div class="carousel carousel-slider center">
               <a class="carousel-item" href="#one!">
-                <p class="black-text">1. Install the CP2104 USB driver to your computer</p>
-                <img src="assets/driver2.svg" height="90%">
-              </a>
-              <a class="carousel-item" href="#two!">
-                <p class="black-text">2. Install the Arduino IDE <br>Installl ESP8266 Board package</p>
+                <p class="black-text">1. Install the ESP8266 Board package</p>
                 <img src="assets/Board_package.svg" height="80%">
               </a>
-              <a class="carousel-item" href="#three!">
-                <p class="black-text">3. In the Board Manager, install the ESP8266 package</p>
+              <a class="carousel-item" href="#two!">
+                <p class="black-text">2. In the Board Manager, install the ESP8266 package</p>
                 <img src="assets/esp8266.svg" height="80%">
               </a>
-              <a class="carousel-item" href="#four!">
-                <p class="black-text">4. Restart and IDE, and the select Adafruit Feather HUZZAH ESP8266 <br>Look at the settings and make sure they match</p>
+              <a class="carousel-item" href="#three!">
+                <p class="black-text">3. Restart the IDE, and select Adafruit Feather HUZZAH ESP8266 <br>Look at the settings and make sure they match</p>
                 <img src="assets/Huzzah.svg" height="80%">
               </a>
               <a class="carousel-item" href="#four!">
-                <p class="black-text">5. Add your personal information.<br>Here, you are allowing your microcontroller to access the internet and your adafruit.io account.</p>
+                <p class="black-text">4. Open the 'wave code' and add your personal information.<br>
+                                      Upload the code to your microcontroller. (right facing arrow)</p>
                 <img src="assets/code.svg" height="80%">
               </a>
             </div>
@@ -406,26 +400,29 @@
       <div id="paper" class="section scrollspy">
         <h2>paper wave
           <span>
-            <a href="#" class="myorange">
+            <a href="assets/paper.pdf" class="myorange" download>
               <i class="material-icons">link</i>
             </a>
           </span>
         </h2>
         <h5>step by step</h5>
+        <p>Lets move on to the customizable paper interface.<br>
+           Print the template, assemble the box or carton<br>
+           Stack the hardware and slide into the box<br>
+           Screw in your servo's arm</p>
         <div class="carousel carousel-slider">
-          <a class="carousel-item" href="#one!"><img src="https://via.placeholder.com/50"></a>
-          <a class="carousel-item" href="#two!"><img src="https://via.placeholder.com/50"></a>
+          <a class="carousel-item" href="#one!"><img src="assets/paper.svg" height="100%"></a>
+          <a class="carousel-item" href="#two!"><img src="assets/harwarestacked.svg" height="100%"></a>
           <a class="carousel-item" href="#three!"><img src="https://via.placeholder.com/50"></a>
           <a class="carousel-item" href="#four!"><img src="https://via.placeholder.com/50"></a>
         </div>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque optio nostrum velit cumque illo quos adipisci, est, veniam nesciunt quibusdam ex explicabo quo esse, dicta consequuntur quia quod natus cum ullam magni saepe id. Soluta eos, expedita hic nesciunt. Quos placeat labore asperiores aliquid nesciunt inventore, quod repellendus rerum earum!</p>
       </div>
       <div class="divider"></div>
 
   <!-- ASSEMBLE IT ALL -->
       <div id="assemble" class="section scrollspy">
-        <h2>all together</h2>
-        <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ipsam velit ullam perspiciatis harum deserunt minima fugiat voluptatum repudiandae corrupti, alias numquam vitae ratione nostrum suscipit officiis ipsa. Exercitationem itaque dolorum, magni totam culpa doloremque debitis sit repudiandae amet! Fugiat ab suscipit officia fugit non odio perspiciatis aspernatur illum, ipsam ipsa, aperiam, consectetur nostrum dolor. Recusandae sint excepturi numquam, cum. Magnam rem quibusdam quod assumenda officiis, expedita repellendus aperiam non impedit quo, doloribus laudantium facilis quisquam molestiae architecto asperiores eos excepturi maiores facere cumque. Ducimus dolorem odit ea reprehenderit voluptatibus perferendis voluptates velit? Magni rem necessitatibus dolorem dicta, laboriosam aliquam.</p>
+        <h2>data</h2>
+        <p></p>
         <video class="responsive-video z-depth-1" loop controls>
             <source src="assets/animation.mp4" type="video/mp4">
             Your browser does not support the video.
