@@ -1,6 +1,9 @@
-
+#include <Servo.h>
 #include "config.h"
-AdafruitIO_Feed *feed = io.feed("new-email");
+
+AdafruitIO_Feed *feed = io.feed("");//FILL IN
+#define SERVO_PIN 14
+Servo servo;
 
 void setup() {
   Serial.begin(115200);
@@ -15,8 +18,8 @@ void setup() {
   Serial.println(io.statusText());
 
   feed->get();
-  pinMode(14,OUTPUT);
-  digitalWrite(14, LOW);
+  servo.attach(SERVO_PIN);
+  servo.write();//FILL IN
 }
 
 void loop() {
@@ -24,8 +27,5 @@ void loop() {
 }
 
 void handleMessage(AdafruitIO_Data *data) {
-  Serial.println("New email");
-  digitalWrite(14, HIGH);
-  delay(5000);
-  digitalWrite(14, LOW);
+    Serial.println("New line");
 }

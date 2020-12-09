@@ -16,17 +16,18 @@
       <div class="nav-wrapper">
         <a href="#" class="brand-logo">socialWave.io</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="index.html">how to</a></li>
+          <li><a href="index.html">possible scaffolds</a></li>
           <li><a href="assets/designSpecs.pdf" download>design specs</a></li>
         </ul>
       </div>
     </nav>
   </div>
+
   <div class="row">
     <div class="col hide-on-small-only m3 l2">
       <ul class="section table-of-contents left-align" style="padding-top:250px; position:fixed;">
         <li class="right-align"><a href="#material">material</a></li>
-        <li class="right-align"><a href="#platforms">platforms</a></li>
+        <li class="right-align"><a href="#data">data</a></li>
         <li class="right-align"><a href="#workflow">workflow</a></li>
         <li class="right-align"><a href="#microcontroller">microcontroller</a></li>
         <li class="right-align"><a href="#paper">paper</a></li>
@@ -38,6 +39,7 @@
 
   <!-- INTRODUCTION - BUILD A SOCIAL WAVE -->
       <div id="introduction" class="section scrollspy">
+        <p><em>Facilitators page</em></p>
         <p>This project is a fun and easy introduction to the Internet of Things which will help you visualize the exchange of data between devices. By making the ... more transparent... We are going to explore how automation... </p>
         <img src="https://via.placeholder.com/900x500" class="center">
       </div>
@@ -72,16 +74,34 @@
             </tr>
             <tr>
               <td>wires</td>
+              <td>social media account</td>
+              <td>etc...</td>
+            </tr>
+            <tr>
+              <td>neopixels</td>
+              <td></td>
+              <td></td>
             </tr>
           </tbody>
         </table>
       </div>
       <div class="divider"></div>
 
-  <!-- WHAT DO YOU WANT TO CREATE? WHAT PLATFORM DO YOU WANT TO USE? -->
-      <div id="platforms" class="section scrollspy">
-        <h2>what platform? what impact?</h2>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae architecto expedita minima, facere ratione! Repellendus unde nihil illum error consequuntur, incidunt officiis quidem magnam. Dignissimos ea, aspernatur. Ipsum rerum, vitae quas, nesciunt necessitatibus minima, praesentium aspernatur cum excepturi ipsa aut quis perspiciatis. Laboriosam recusandae consectetur aut quod modi, aliquam cumque minus in dolorum esse, ex voluptatem, dolorem eligendi. Voluptate quam modi, cupiditate eaque itaque facere voluptatem aliquam, deleniti rerum harum explicabo! Aliquid, non quidem quod. Excepturi soluta voluptatum quod animi, at aliquam natus enim expedita unde reprehenderit perspiciatis velit neque qui aperiam, odio. Consectetur obcaecati quia voluptas pariatur, doloribus deserunt!</p>
+      <div id="data" class="section scrollspy">
+        <h2>what does data look like</h2>
+        <h6>twitter example</h6>
+        <div class="row">
+          <div class="col s7">
+            <p>visible tweet</p>
+            <img src="assets/visibleTweet.png" width="100%">
+            <p>JSON</p>
+            <img src="assets/JSON.png" width="100%">
+          </div>
+          <div class="col s5">
+            <p>Metadata and data pulled from <a href="https://twitter.com/realDonaldTrump/status/1336439050488647681" class="myorange">twitter by zapier</a></p>
+            <img src="assets/trumpJSON.svg" width="100%">
+          </div>
+        </div>
       </div>
       <div class="divider"></div>
 
@@ -310,6 +330,7 @@
         <!-- HARDWARE -->
         <div class="hardware">
           <h3>hardware</h3>
+          <h6>One can assemble multiple servos, neopixels, LEDs... here is the schematics for a servo</h6>
           <p>Follow the diagram below and connect your servo, battery and USB cable to the microcontroller.<br>
              Orange wire to Pin 14<br>
              Red wire to 3V (power)<br>
@@ -398,23 +419,20 @@
 
   <!-- PAPER ARTIFACT -->
       <div id="paper" class="section scrollspy">
-        <h2>paper wave
+        <h2>paper artifact
           <span>
             <a href="assets/paper.pdf" class="myorange" download>
               <i class="material-icons">link</i>
             </a>
           </span>
         </h2>
-        <h5>step by step</h5>
-        <p>Lets move on to the customizable paper interface.<br>
-           Print the template, assemble the box or carton<br>
-           Stack the hardware and slide into the box<br>
-           Screw in your servo's arm</p>
-        <div class="carousel carousel-slider">
-          <a class="carousel-item" href="#one!"><img src="assets/paper.svg" height="100%"></a>
-          <a class="carousel-item" href="#two!"><img src="assets/harwarestacked.svg" height="100%"></a>
-          <a class="carousel-item" href="#three!"><img src="https://via.placeholder.com/50"></a>
-          <a class="carousel-item" href="#four!"><img src="https://via.placeholder.com/50"></a>
+        <div class="row">
+          <div class="col s6">
+            <img src="assets/paper.svg" width="100%">
+          </div>
+          <div class="col s6">
+            <p>Physical artifacts can be built from any craft material you have on hand. We offer two boxes' templates, although we encourage you to create your own, so it better matches your aesthetics and meaning.</p>
+          </div>
         </div>
       </div>
       <div class="divider"></div>
@@ -433,7 +451,7 @@
   </div>
 
   <footer class="page-footer">
-    <h5 class="grey-text">Footer Content</h5>
+    <p class="center">Marina Lemee (mal2333)<br>Final Project - MSTU5027<br>Teacher College, Columbia</p>
   </footer>
 
 
