@@ -14,10 +14,47 @@
 //4. In loop()
 //servo.write(0);//servo moves to 0 degrees
 //delay(500);//500 miliseconds
-//servo.write(90);//servo moves to 90 degrees... 
+//servo.write(90);//servo moves to 90 degrees...
 
 
-//  LIGHT/neopixels
+//  SERVO MOVES back and forth 3 times
+//void handleMessage(AdafruitIO_Data *data) {
+//  Serial.println("New line");
+//  for(int i = 0; i<3 ; i++) {
+//    servo.write(0);
+//    delay(500);
+//    servo.write(90);
+//    delay(500);
+//  }
+//}
+
+//  SERVO MOVES once
+//void handleMessage(AdafruitIO_Data *data) {
+//  Serial.println("New line");
+//  servo.write(0);
+//  delay(3000);
+//  servo.write(90);
+//}
+
+//  SERVO INCREMENTS TO 180
+//void setup(){
+//  int tracker = 0;
+//  servo.write(0);
+//}
+//
+//void handleMessage(AdafruitIO_Data *data) {
+//  Serial.println("New line");
+//  while (tracker <=180 ){
+//    tracker += 20;
+//    servo.write(tracker);
+//  }
+//  tracker = 0;
+//}
+
+
+
+
+//  LIGHTS/neopixels
 
 //1. Add library
 //#include <Adafruit_NeoPixel.h>
